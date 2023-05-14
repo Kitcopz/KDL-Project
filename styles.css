@@ -45,8 +45,14 @@ body{
 #submit-button{
 
     background-color: dodgerblue;
+    cursor: pointer;
     border: none;
     color: white;
     border-radius: 5px;
     line-height: 1.5rem;
+    transition: 0.5s ease-out;
+}
+
+#submit-button:hover{
+    background-color: black;
 }

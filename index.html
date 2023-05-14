@@ -15,12 +15,13 @@
     <div class="login-container">
         <div class="login-form">
             <h1>Login Now</h1>
-            <form>
-                <input type="text">
-                <input type="text">
+            <form onsubmit="login(); return false">
+                <input id="email" placeholder="email" type="text">
+                <input id="password" placeholder="password" type="password">
                 <input id="submit-button" type="submit">
             </form>
         </div>
     </div>
 </body>
+<script src="login.js"></script>
 </html>
